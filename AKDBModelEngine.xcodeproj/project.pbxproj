@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876F45E61CCE34E80065604C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F45E51CCE34E80065604C /* main.m */; };
+		876F45E91CCE34E80065604C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F45E81CCE34E80065604C /* AppDelegate.m */; };
+		876F45EC1CCE34E80065604C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F45EB1CCE34E80065604C /* ViewController.m */; };
+		876F45EF1CCE34E80065604C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876F45ED1CCE34E80065604C /* Main.storyboard */; };
+		876F45F11CCE34E80065604C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876F45F01CCE34E80065604C /* Assets.xcassets */; };
+		876F45F41CCE34E80065604C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876F45F21CCE34E80065604C /* LaunchScreen.storyboard */; };
+		876F45FF1CCE34E80065604C /* AKDBModelEngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F45FE1CCE34E80065604C /* AKDBModelEngineTests.m */; };
+		876F460A1CCE34E80065604C /* AKDBModelEngineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F46091CCE34E80065604C /* AKDBModelEngineUITests.m */; };
+		876F46241CCE35A90065604C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F461A1CCE35A90065604C /* FMDatabase.m */; };
+		876F46251CCE35A90065604C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F461C1CCE35A90065604C /* FMDatabaseAdditions.m */; };
+		876F46261CCE35A90065604C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F461E1CCE35A90065604C /* FMDatabasePool.m */; };
+		876F46271CCE35A90065604C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F46201CCE35A90065604C /* FMDatabaseQueue.m */; };
+		876F46281CCE35A90065604C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F46231CCE35A90065604C /* FMResultSet.m */; };
+		876F462B1CCE35C80065604C /* AKDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F462A1CCE35C80065604C /* AKDBManager.m */; };
+		876F462E1CCE36130065604C /* AKDBModelEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F462D1CCE36130065604C /* AKDBModelEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876F45FB1CCE34E80065604C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876F45D91CCE34E80065604C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876F45E01CCE34E80065604C;
+			remoteInfo = AKDBModelEngine;
+		};
+		876F46061CCE34E80065604C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876F45D91CCE34E80065604C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876F45E01CCE34E80065604C;
+			remoteInfo = AKDBModelEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876F45E11CCE34E80065604C /* AKDBModelEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKDBModelEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F45E51CCE34E80065604C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876F45E71CCE34E80065604C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		876F45E81CCE34E80065604C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		876F45EA1CCE34E80065604C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		876F45EB1CCE34E80065604C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		876F45EE1CCE34E80065604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876F45F01CCE34E80065604C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876F45F31CCE34E80065604C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876F45F51CCE34E80065604C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F45FA1CCE34E80065604C /* AKDBModelEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKDBModelEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F45FE1CCE34E80065604C /* AKDBModelEngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKDBModelEngineTests.m; sourceTree = "<group>"; };
+		876F46001CCE34E80065604C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F46051CCE34E80065604C /* AKDBModelEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKDBModelEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876F46091CCE34E80065604C /* AKDBModelEngineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKDBModelEngineUITests.m; sourceTree = "<group>"; };
+		876F460B1CCE34E80065604C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876F46191CCE35A90065604C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		876F461A1CCE35A90065604C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		876F461B1CCE35A90065604C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		876F461C1CCE35A90065604C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		876F461D1CCE35A90065604C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		876F461E1CCE35A90065604C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		876F461F1CCE35A90065604C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		876F46201CCE35A90065604C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		876F46211CCE35A90065604C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		876F46221CCE35A90065604C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		876F46231CCE35A90065604C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		876F46291CCE35C80065604C /* AKDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDBManager.h; sourceTree = "<group>"; };
+		876F462A1CCE35C80065604C /* AKDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDBManager.m; sourceTree = "<group>"; };
+		876F462C1CCE36130065604C /* AKDBModelEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDBModelEngine.h; sourceTree = "<group>"; };
+		876F462D1CCE36130065604C /* AKDBModelEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDBModelEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876F45DE1CCE34E80065604C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F45F71CCE34E80065604C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F46021CCE34E80065604C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876F45D81CCE34E80065604C = {
+			isa = PBXGroup;
+			children = (
+				876F45E31CCE34E80065604C /* AKDBModelEngine */,
+				876F45FD1CCE34E80065604C /* AKDBModelEngineTests */,
+				876F46081CCE34E80065604C /* AKDBModelEngineUITests */,
+				876F45E21CCE34E80065604C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876F45E21CCE34E80065604C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876F45E11CCE34E80065604C /* AKDBModelEngine.app */,
+				876F45FA1CCE34E80065604C /* AKDBModelEngineTests.xctest */,
+				876F46051CCE34E80065604C /* AKDBModelEngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876F45E31CCE34E80065604C /* AKDBModelEngine */ = {
+			isa = PBXGroup;
+			children = (
+				876F46171CCE35A90065604C /* AKDBModelEngine */,
+				876F45E71CCE34E80065604C /* AppDelegate.h */,
+				876F45E81CCE34E80065604C /* AppDelegate.m */,
+				876F45EA1CCE34E80065604C /* ViewController.h */,
+				876F45EB1CCE34E80065604C /* ViewController.m */,
+				876F45ED1CCE34E80065604C /* Main.storyboard */,
+				876F45F01CCE34E80065604C /* Assets.xcassets */,
+				876F45F21CCE34E80065604C /* LaunchScreen.storyboard */,
+				876F45F51CCE34E80065604C /* Info.plist */,
+				876F45E41CCE34E80065604C /* Supporting Files */,
+			);
+			path = AKDBModelEngine;
+			sourceTree = "<group>";
+		};
+		876F45E41CCE34E80065604C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876F45E51CCE34E80065604C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		876F45FD1CCE34E80065604C /* AKDBModelEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				876F45FE1CCE34E80065604C /* AKDBModelEngineTests.m */,
+				876F46001CCE34E80065604C /* Info.plist */,
+			);
+			path = AKDBModelEngineTests;
+			sourceTree = "<group>";
+		};
+		876F46081CCE34E80065604C /* AKDBModelEngineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876F46091CCE34E80065604C /* AKDBModelEngineUITests.m */,
+				876F460B1CCE34E80065604C /* Info.plist */,
+			);
+			path = AKDBModelEngineUITests;
+			sourceTree = "<group>";
+		};
+		876F46171CCE35A90065604C /* AKDBModelEngine */ = {
+			isa = PBXGroup;
+			children = (
+				876F46181CCE35A90065604C /* FMDB */,
+				876F46291CCE35C80065604C /* AKDBManager.h */,
+				876F462A1CCE35C80065604C /* AKDBManager.m */,
+				876F462C1CCE36130065604C /* AKDBModelEngine.h */,
+				876F462D1CCE36130065604C /* AKDBModelEngine.m */,
+			);
+			path = AKDBModelEngine;
+			sourceTree = "<group>";
+		};
+		876F46181CCE35A90065604C /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				876F46191CCE35A90065604C /* FMDatabase.h */,
+				876F461A1CCE35A90065604C /* FMDatabase.m */,
+				876F461B1CCE35A90065604C /* FMDatabaseAdditions.h */,
+				876F461C1CCE35A90065604C /* FMDatabaseAdditions.m */,
+				876F461D1CCE35A90065604C /* FMDatabasePool.h */,
+				876F461E1CCE35A90065604C /* FMDatabasePool.m */,
+				876F461F1CCE35A90065604C /* FMDatabaseQueue.h */,
+				876F46201CCE35A90065604C /* FMDatabaseQueue.m */,
+				876F46211CCE35A90065604C /* FMDB.h */,
+				876F46221CCE35A90065604C /* FMResultSet.h */,
+				876F46231CCE35A90065604C /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876F45E01CCE34E80065604C /* AKDBModelEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F460E1CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngine" */;
+			buildPhases = (
+				876F45DD1CCE34E80065604C /* Sources */,
+				876F45DE1CCE34E80065604C /* Frameworks */,
+				876F45DF1CCE34E80065604C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKDBModelEngine;
+			productName = AKDBModelEngine;
+			productReference = 876F45E11CCE34E80065604C /* AKDBModelEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876F45F91CCE34E80065604C /* AKDBModelEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F46111CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngineTests" */;
+			buildPhases = (
+				876F45F61CCE34E80065604C /* Sources */,
+				876F45F71CCE34E80065604C /* Frameworks */,
+				876F45F81CCE34E80065604C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876F45FC1CCE34E80065604C /* PBXTargetDependency */,
+			);
+			name = AKDBModelEngineTests;
+			productName = AKDBModelEngineTests;
+			productReference = 876F45FA1CCE34E80065604C /* AKDBModelEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876F46041CCE34E80065604C /* AKDBModelEngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876F46141CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngineUITests" */;
+			buildPhases = (
+				876F46011CCE34E80065604C /* Sources */,
+				876F46021CCE34E80065604C /* Frameworks */,
+				876F46031CCE34E80065604C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876F46071CCE34E80065604C /* PBXTargetDependency */,
+			);
+			name = AKDBModelEngineUITests;
+			productName = AKDBModelEngineUITests;
+			productReference = 876F46051CCE34E80065604C /* AKDBModelEngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876F45D91CCE34E80065604C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AKing;
+				TargetAttributes = {
+					876F45E01CCE34E80065604C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					876F45F91CCE34E80065604C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 876F45E01CCE34E80065604C;
+					};
+					876F46041CCE34E80065604C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 876F45E01CCE34E80065604C;
+					};
+				};
+			};
+			buildConfigurationList = 876F45DC1CCE34E80065604C /* Build configuration list for PBXProject "AKDBModelEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876F45D81CCE34E80065604C;
+			productRefGroup = 876F45E21CCE34E80065604C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876F45E01CCE34E80065604C /* AKDBModelEngine */,
+				876F45F91CCE34E80065604C /* AKDBModelEngineTests */,
+				876F46041CCE34E80065604C /* AKDBModelEngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876F45DF1CCE34E80065604C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F45F41CCE34E80065604C /* LaunchScreen.storyboard in Resources */,
+				876F45F11CCE34E80065604C /* Assets.xcassets in Resources */,
+				876F45EF1CCE34E80065604C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F45F81CCE34E80065604C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F46031CCE34E80065604C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876F45DD1CCE34E80065604C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F45EC1CCE34E80065604C /* ViewController.m in Sources */,
+				876F46261CCE35A90065604C /* FMDatabasePool.m in Sources */,
+				876F45E91CCE34E80065604C /* AppDelegate.m in Sources */,
+				876F462B1CCE35C80065604C /* AKDBManager.m in Sources */,
+				876F46271CCE35A90065604C /* FMDatabaseQueue.m in Sources */,
+				876F462E1CCE36130065604C /* AKDBModelEngine.m in Sources */,
+				876F45E61CCE34E80065604C /* main.m in Sources */,
+				876F46241CCE35A90065604C /* FMDatabase.m in Sources */,
+				876F46281CCE35A90065604C /* FMResultSet.m in Sources */,
+				876F46251CCE35A90065604C /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F45F61CCE34E80065604C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F45FF1CCE34E80065604C /* AKDBModelEngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876F46011CCE34E80065604C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876F460A1CCE34E80065604C /* AKDBModelEngineUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876F45FC1CCE34E80065604C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876F45E01CCE34E80065604C /* AKDBModelEngine */;
+			targetProxy = 876F45FB1CCE34E80065604C /* PBXContainerItemProxy */;
+		};
+		876F46071CCE34E80065604C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876F45E01CCE34E80065604C /* AKDBModelEngine */;
+			targetProxy = 876F46061CCE34E80065604C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876F45ED1CCE34E80065604C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876F45EE1CCE34E80065604C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876F45F21CCE34E80065604C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876F45F31CCE34E80065604C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876F460C1CCE34E80065604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876F460D1CCE34E80065604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876F460F1CCE34E80065604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKDBModelEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		876F46101CCE34E80065604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AKDBModelEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		876F46121CCE34E80065604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AKDBModelEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKDBModelEngine.app/AKDBModelEngine";
+			};
+			name = Debug;
+		};
+		876F46131CCE34E80065604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AKDBModelEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AKDBModelEngine.app/AKDBModelEngine";
+			};
+			name = Release;
+		};
+		876F46151CCE34E80065604C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AKDBModelEngineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AKDBModelEngine;
+			};
+			name = Debug;
+		};
+		876F46161CCE34E80065604C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AKDBModelEngineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aking.AKDBModelEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AKDBModelEngine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876F45DC1CCE34E80065604C /* Build configuration list for PBXProject "AKDBModelEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F460C1CCE34E80065604C /* Debug */,
+				876F460D1CCE34E80065604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876F460E1CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F460F1CCE34E80065604C /* Debug */,
+				876F46101CCE34E80065604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876F46111CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F46121CCE34E80065604C /* Debug */,
+				876F46131CCE34E80065604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876F46141CCE34E80065604C /* Build configuration list for PBXNativeTarget "AKDBModelEngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876F46151CCE34E80065604C /* Debug */,
+				876F46161CCE34E80065604C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876F45D91CCE34E80065604C /* Project object */;
+}
